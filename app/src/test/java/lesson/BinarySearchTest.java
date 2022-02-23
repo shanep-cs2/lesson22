@@ -3,10 +3,10 @@ package lesson;
 import org.testng.annotations.Test;
 import static org.testng.Assert.*;
 
-public class SayWorldTest {
+public class BinarySearchTest {
 
     @Test
-    public void methodReturnsWorld() {
+    public void testSomething() {
         assert(false); //Remove this!!
     }
     
