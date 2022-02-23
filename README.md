@@ -1,8 +1,8 @@
-# lesson04 - Warmup
+# lesson22 - Binary search
 
 - name: TODO
 - email: TODO
-- [lab specs](https://shanepanter.com/cs2/lessons/lesson04.html)
+- [lab specs](https://shanepanter.com/cs2/lessons/lesson22.html)
 
 ## Testing
 
