@@ -6,6 +6,10 @@ In this lab we will leverage [recursion]({% link _cs2/lessons/lesson09.md %}) to
 binary search algorithm. Each recursive call will search one-half of the list that was 
 received as an argument.
 
+## Videos
+
+- [Lab Overview]()
+
 
 ## Task 1 - Complete the BinarySearch class
 
