@@ -12,5 +12,5 @@ public interface BinarySearch {
      * @param end The ending index
      * @return A populated SearchHelper object
      */
-    SearchHelper search(SearchHelper helper, List<Integer> nums, int start, int end);
+    SearchHelper search(SearchHelper helper, List<Integer> nums, int lower, int upper);
 }
