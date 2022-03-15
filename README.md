@@ -15,16 +15,17 @@ received as an argument.
 
 In your starter code you will see a file named **MyBinarySearch.java**. You job is to implement the
 interface BinarySearch. You **MUST** use recursion to solve this problem. The list that is given
-to you will always be sorted, but duplicates are allowed.!
-
+to you will always be sorted, but duplicates are allowed! For a list with duplicates you should
+return the first instance that you find.
 
 The algorithm begins by choosing an index midway between the lower and upper bounds.
 
 - If target == nums.get(index) return index
 - If lower == upper, return lower if target == nums.get(lower) else -1 to indicate not found
 - Otherwise call the function recursively on half the List parameter:
-  - If integers.get(index) < target, search the List from index to upper
-  - If integers.get(index) > target, search the List from lower to index
+  - If target < numbers.get(index), search the List from lower to index-1
+  - If target > numbers.get(index), search the List from index+1 to upper
+
 
 ## Task 2 - Add stats
 
@@ -32,8 +33,9 @@ Once the search algorithm works correctly, add some stats to the Search Helper c
 how our algorithm is behaving. Add the following to your SearchHelper return object:
 
 - Count the number of recursive calls
-- Count the number of times when the target is compared to an element of the List. Note: lower ==
-  upper should not be counted.
+ - The first call should not be counted as recursive. Only count when search calls itself!
+- Count the number of times when the target is compared to an element of the List. 
+  - `target == numbers.get(index)` 
 
 ## Task 3 - Write Unit Tests
 
@@ -59,7 +61,7 @@ Input:
 Output:
 
 ```
-index: 1, recursions: 2, comparisons: 3
+index: 1, recursions: 1, comparisons: 2
 ```
 
 ## Task 5 - Complete the Retrospective
