@@ -8,7 +8,7 @@ received as an argument.
 
 ## Videos
 
-- [Lab Overview]()
+- [Lab Overview](https://youtu.be/eKU9VG7m11E)
 
 
 ## Task 1 - Complete the BinarySearch class
