@@ -10,6 +10,7 @@ received as an argument.
 
 - [Lab Overview](https://youtu.be/eKU9VG7m11E)
 - [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
+- [Cloning and Submitting](https://shanep-cs2.github.io/docs/github.html)
 
 
 ## Task 1 - Complete the BinarySearch class
