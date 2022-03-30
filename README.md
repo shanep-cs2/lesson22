@@ -6,9 +6,10 @@ In this lab we will leverage [recursion](https://shanep-cs2.github.io/lessons/le
 binary search algorithm. Each recursive call will search one-half of the list that was 
 received as an argument.
 
-## Videos
+## Important Links
 
 - [Lab Overview](https://youtu.be/eKU9VG7m11E)
+- [Class Coding standards](https://shanep-cs2.github.io/docs/coding-standards.html)
 
 
 ## Task 1 - Complete the BinarySearch class
